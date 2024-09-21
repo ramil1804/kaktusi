@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TestDBWpfModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="TestDBWpfEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="collection" EntityType="TestDBWpfModel.collection" />
+    <EntitySet Name="kaktusi" EntityType="TestDBWpfModel.kaktusi" />
+    <EntitySet Name="logins" EntityType="TestDBWpfModel.logins" />
+    <EntitySet Name="sysdiagrams" EntityType="TestDBWpfModel.sysdiagrams" />
+    <EntitySet Name="users" EntityType="TestDBWpfModel.users" />
+    <EntitySet Name="Vistavki" EntityType="TestDBWpfModel.Vistavki" />
+    <AssociationSet Name="FK_collection_kaktusi" Association="TestDBWpfModel.FK_collection_kaktusi">
+      <End Role="kaktusi" EntitySet="kaktusi" />
+      <End Role="collection" EntitySet="collection" />
+    </AssociationSet>
+    <AssociationSet Name="FK_collection_Vistavki" Association="TestDBWpfModel.FK_collection_Vistavki">
+      <End Role="Vistavki" EntitySet="Vistavki" />
+      <End Role="collection" EntitySet="collection" />
+    </AssociationSet>
+    <AssociationSet Name="FK_logins_users" Association="TestDBWpfModel.FK_logins_users">
+      <End Role="users" EntitySet="users" />
+      <End Role="logins" EntitySet="logins" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="collection">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="kaktus_id" Type="Int32" />
+    <Property Name="vistavka_id" Type="Int32" />
+    <NavigationProperty Name="kaktusi" Relationship="TestDBWpfModel.FK_collection_kaktusi" FromRole="collection" ToRole="kaktusi" />
+    <NavigationProperty Name="Vistavki" Relationship="TestDBWpfModel.FK_collection_Vistavki" FromRole="collection" ToRole="Vistavki" />
+  </EntityType>
+  <EntityType Name="kaktusi">
+    <Key>
+      <PropertyRef Name="id_kaktus" />
+    </Key>
+    <Property Name="id_kaktus" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Vid" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Int32" />
+    <Property Name="Age" Type="Int32" />
+    <Property Name="Proishojdenie" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Instrukciya" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="collection" Relationship="TestDBWpfModel.FK_collection_kaktusi" FromRole="kaktusi" ToRole="collection" />
+  </EntityType>
+  <EntityType Name="logins">
+    <Key>
+      <PropertyRef Name="id_login" />
+    </Key>
+    <Property Name="id_login" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="login" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="passwod" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="user_id" Type="Int32" />
+    <NavigationProperty Name="users" Relationship="TestDBWpfModel.FK_logins_users" FromRole="logins" ToRole="users" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="id_user" />
+    </Key>
+    <Property Name="id_user" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="logins" Relationship="TestDBWpfModel.FK_logins_users" FromRole="users" ToRole="logins" />
+  </EntityType>
+  <EntityType Name="Vistavki">
+    <Key>
+      <PropertyRef Name="id_vistavka" />
+    </Key>
+    <Property Name="id_vistavka" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="date" Type="DateTime" Precision="0" />
+    <Property Name="location" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="awards" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="collection" Relationship="TestDBWpfModel.FK_collection_Vistavki" FromRole="Vistavki" ToRole="collection" />
+  </EntityType>
+  <Association Name="FK_collection_kaktusi">
+    <End Type="TestDBWpfModel.kaktusi" Role="kaktusi" Multiplicity="0..1" />
+    <End Type="TestDBWpfModel.collection" Role="collection" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="kaktusi">
+        <PropertyRef Name="id_kaktus" />
+      </Principal>
+      <Dependent Role="collection">
+        <PropertyRef Name="kaktus_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_collection_Vistavki">
+    <End Type="TestDBWpfModel.Vistavki" Role="Vistavki" Multiplicity="0..1" />
+    <End Type="TestDBWpfModel.collection" Role="collection" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vistavki">
+        <PropertyRef Name="id_vistavka" />
+      </Principal>
+      <Dependent Role="collection">
+        <PropertyRef Name="vistavka_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_logins_users">
+    <End Type="TestDBWpfModel.users" Role="users" Multiplicity="0..1" />
+    <End Type="TestDBWpfModel.logins" Role="logins" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="id_user" />
+      </Principal>
+      <Dependent Role="logins">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marse\\Desktop\\WpfApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{078B2C78-AB97-4D27-A421-9967008F3E4B}|WpfApp1\\WpfApp1.csproj|C:\\Users\\marse\\Desktop\\WpfApp1\\wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078B2C78-AB97-4D27-A421-9967008F3E4B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078B2C78-AB97-4D27-A421-9967008F3E4B}|WpfApp1\\WpfApp1.csproj|c:\\users\\marse\\desktop\\wpfapp1\\wpfapp1\\pages\\kaktuslistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078B2C78-AB97-4D27-A421-9967008F3E4B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\pages\\kaktuslistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078B2C78-AB97-4D27-A421-9967008F3E4B}|WpfApp1\\WpfApp1.csproj|C:\\Users\\marse\\Desktop\\WpfApp1\\wpfapp1\\pages\\kaktuslistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{078B2C78-AB97-4D27-A421-9967008F3E4B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\pages\\kaktuslistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078B2C78-AB97-4D27-A421-9967008F3E4B}|WpfApp1\\WpfApp1.csproj|C:\\Users\\marse\\Desktop\\WpfApp1\\wpfapp1\\pages\\addkaktuspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{078B2C78-AB97-4D27-A421-9967008F3E4B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\pages\\addkaktuspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078B2C78-AB97-4D27-A421-9967008F3E4B}|WpfApp1\\WpfApp1.csproj|C:\\Users\\marse\\Desktop\\WpfApp1\\wpfapp1\\pages\\addkaktuspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078B2C78-AB97-4D27-A421-9967008F3E4B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\pages\\addkaktuspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078B2C78-AB97-4D27-A421-9967008F3E4B}|WpfApp1\\WpfApp1.csproj|C:\\Users\\marse\\Desktop\\WpfApp1\\wpfapp1\\pages\\addvistavkipage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{078B2C78-AB97-4D27-A421-9967008F3E4B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\pages\\addvistavkipage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078B2C78-AB97-4D27-A421-9967008F3E4B}|WpfApp1\\WpfApp1.csproj|C:\\Users\\marse\\Desktop\\WpfApp1\\wpfapp1\\pages\\addvistavkipage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078B2C78-AB97-4D27-A421-9967008F3E4B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\pages\\addvistavkipage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078B2C78-AB97-4D27-A421-9967008F3E4B}|WpfApp1\\WpfApp1.csproj|C:\\Users\\marse\\Desktop\\WpfApp1\\wpfapp1\\pages\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{078B2C78-AB97-4D27-A421-9967008F3E4B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\pages\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078B2C78-AB97-4D27-A421-9967008F3E4B}|WpfApp1\\WpfApp1.csproj|C:\\Users\\marse\\Desktop\\WpfApp1\\wpfapp1\\pages\\listvistavkipage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078B2C78-AB97-4D27-A421-9967008F3E4B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\pages\\listvistavkipage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078B2C78-AB97-4D27-A421-9967008F3E4B}|WpfApp1\\WpfApp1.csproj|C:\\Users\\marse\\Desktop\\WpfApp1\\wpfapp1\\pages\\listvistavkipage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{078B2C78-AB97-4D27-A421-9967008F3E4B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\pages\\listvistavkipage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078B2C78-AB97-4D27-A421-9967008F3E4B}|WpfApp1\\WpfApp1.csproj|C:\\Users\\marse\\Desktop\\WpfApp1\\wpfapp1\\pages\\editpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{078B2C78-AB97-4D27-A421-9967008F3E4B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\pages\\editpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078B2C78-AB97-4D27-A421-9967008F3E4B}|WpfApp1\\WpfApp1.csproj|C:\\Users\\marse\\Desktop\\WpfApp1\\wpfapp1\\db\\modeldb.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{078B2C78-AB97-4D27-A421-9967008F3E4B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\db\\modeldb.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddKaktusPage.xaml",
+              "DocumentMoniker": "C:\\Users\\marse\\Desktop\\WpfApp1\\WpfApp1\\Pages\\AddKaktusPage.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\Pages\\AddKaktusPage.xaml",
+              "ToolTip": "C:\\Users\\marse\\Desktop\\WpfApp1\\WpfApp1\\Pages\\AddKaktusPage.xaml",
+              "RelativeToolTip": "WpfApp1\\Pages\\AddKaktusPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-09T19:51:39.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KaktusListPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\Desktop\\WpfApp1\\WpfApp1\\Pages\\KaktusListPage.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Pages\\KaktusListPage.xaml.cs",
+              "ToolTip": "C:\\Users\\marse\\Desktop\\WpfApp1\\WpfApp1\\Pages\\KaktusListPage.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\Pages\\KaktusListPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T19:43:39.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\Desktop\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\marse\\Desktop\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T19:31:18.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SignUpPage.xaml",
+              "DocumentMoniker": "C:\\Users\\marse\\Desktop\\WpfApp1\\WpfApp1\\Pages\\SignUpPage.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\Pages\\SignUpPage.xaml",
+              "ToolTip": "C:\\Users\\marse\\Desktop\\WpfApp1\\WpfApp1\\Pages\\SignUpPage.xaml",
+              "RelativeToolTip": "WpfApp1\\Pages\\SignUpPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-09T19:30:02.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddKaktusPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\Desktop\\WpfApp1\\WpfApp1\\Pages\\AddKaktusPage.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Pages\\AddKaktusPage.xaml.cs",
+              "ToolTip": "C:\\Users\\marse\\Desktop\\WpfApp1\\WpfApp1\\Pages\\AddKaktusPage.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\Pages\\AddKaktusPage.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T18:06:02.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Pages\\AddVistavkiPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\Desktop\\WpfApp1\\WpfApp1\\Pages\\AddVistavkiPage.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Pages\\AddVistavkiPage.xaml.cs",
+              "ToolTip": "C:\\Users\\marse\\Desktop\\WpfApp1\\WpfApp1\\Pages\\AddVistavkiPage.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\Pages\\AddVistavkiPage.xaml.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwCUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T18:05:51.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddVistavkiPage.xaml",
+              "DocumentMoniker": "C:\\Users\\marse\\Desktop\\WpfApp1\\WpfApp1\\Pages\\AddVistavkiPage.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\Pages\\AddVistavkiPage.xaml",
+              "ToolTip": "C:\\Users\\marse\\Desktop\\WpfApp1\\WpfApp1\\Pages\\AddVistavkiPage.xaml",
+              "RelativeToolTip": "WpfApp1\\Pages\\AddVistavkiPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-09T18:02:32.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KaktusListPage.xaml",
+              "DocumentMoniker": "C:\\Users\\marse\\Desktop\\WpfApp1\\WpfApp1\\Pages\\KaktusListPage.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\Pages\\KaktusListPage.xaml",
+              "ToolTip": "C:\\Users\\marse\\Desktop\\WpfApp1\\WpfApp1\\Pages\\KaktusListPage.xaml",
+              "RelativeToolTip": "WpfApp1\\Pages\\KaktusListPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-09T17:59:00.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ListVistavkiPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\Desktop\\WpfApp1\\WpfApp1\\Pages\\ListVistavkiPage.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Pages\\ListVistavkiPage.xaml.cs",
+              "ToolTip": "C:\\Users\\marse\\Desktop\\WpfApp1\\WpfApp1\\Pages\\ListVistavkiPage.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\Pages\\ListVistavkiPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T18:00:10.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ListVistavkiPage.xaml",
+              "DocumentMoniker": "C:\\Users\\marse\\Desktop\\WpfApp1\\WpfApp1\\Pages\\ListVistavkiPage.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\Pages\\ListVistavkiPage.xaml",
+              "ToolTip": "C:\\Users\\marse\\Desktop\\WpfApp1\\WpfApp1\\Pages\\ListVistavkiPage.xaml",
+              "RelativeToolTip": "WpfApp1\\Pages\\ListVistavkiPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-09T17:54:41.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditPage.xaml",
+              "DocumentMoniker": "C:\\Users\\marse\\Desktop\\WpfApp1\\WpfApp1\\Pages\\EditPage.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\Pages\\EditPage.xaml",
+              "ToolTip": "C:\\Users\\marse\\Desktop\\WpfApp1\\WpfApp1\\Pages\\EditPage.xaml",
+              "RelativeToolTip": "WpfApp1\\Pages\\EditPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-09T18:02:56.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ModelDB.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\marse\\Desktop\\WpfApp1\\WpfApp1\\db\\ModelDB.edmx",
+              "RelativeDocumentMoniker": "WpfApp1\\db\\ModelDB.edmx",
+              "ToolTip": "C:\\Users\\marse\\Desktop\\WpfApp1\\WpfApp1\\db\\ModelDB.edmx [Diagram1]",
+              "RelativeToolTip": "WpfApp1\\db\\ModelDB.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-09-09T17:52:47.695Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

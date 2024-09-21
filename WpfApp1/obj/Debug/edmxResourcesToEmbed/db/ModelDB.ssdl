@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище TestDBWpfModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="collection">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="kaktus_id" Type="int" />
+    <Property Name="vistavka_id" Type="int" />
+  </EntityType>
+  <EntityType Name="kaktusi">
+    <Key>
+      <PropertyRef Name="id_kaktus" />
+    </Key>
+    <Property Name="id_kaktus" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Vid" Type="nvarchar" MaxLength="50" />
+    <Property Name="Price" Type="int" />
+    <Property Name="Age" Type="int" />
+    <Property Name="Proishojdenie" Type="nchar" MaxLength="10" />
+    <Property Name="Instrukciya" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="logins">
+    <Key>
+      <PropertyRef Name="id_login" />
+    </Key>
+    <Property Name="id_login" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="login" Type="nchar" MaxLength="10" />
+    <Property Name="passwod" Type="nchar" MaxLength="10" />
+    <Property Name="user_id" Type="int" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="id_user" />
+    </Key>
+    <Property Name="id_user" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Vistavki">
+    <Key>
+      <PropertyRef Name="id_vistavka" />
+    </Key>
+    <Property Name="id_vistavka" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="date" Type="date" />
+    <Property Name="location" Type="nchar" MaxLength="10" />
+    <Property Name="awards" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <Association Name="FK_collection_kaktusi">
+    <End Role="kaktusi" Type="Self.kaktusi" Multiplicity="0..1" />
+    <End Role="collection" Type="Self.collection" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="kaktusi">
+        <PropertyRef Name="id_kaktus" />
+      </Principal>
+      <Dependent Role="collection">
+        <PropertyRef Name="kaktus_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_collection_Vistavki">
+    <End Role="Vistavki" Type="Self.Vistavki" Multiplicity="0..1" />
+    <End Role="collection" Type="Self.collection" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vistavki">
+        <PropertyRef Name="id_vistavka" />
+      </Principal>
+      <Dependent Role="collection">
+        <PropertyRef Name="vistavka_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_logins_users">
+    <End Role="users" Type="Self.users" Multiplicity="0..1" />
+    <End Role="logins" Type="Self.logins" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="id_user" />
+      </Principal>
+      <Dependent Role="logins">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище TestDBWpfModelContainer">
+    <EntitySet Name="collection" EntityType="Self.collection" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="kaktusi" EntityType="Self.kaktusi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="logins" EntityType="Self.logins" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vistavki" EntityType="Self.Vistavki" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_collection_kaktusi" Association="Self.FK_collection_kaktusi">
+      <End Role="kaktusi" EntitySet="kaktusi" />
+      <End Role="collection" EntitySet="collection" />
+    </AssociationSet>
+    <AssociationSet Name="FK_collection_Vistavki" Association="Self.FK_collection_Vistavki">
+      <End Role="Vistavki" EntitySet="Vistavki" />
+      <End Role="collection" EntitySet="collection" />
+    </AssociationSet>
+    <AssociationSet Name="FK_logins_users" Association="Self.FK_logins_users">
+      <End Role="users" EntitySet="users" />
+      <End Role="logins" EntitySet="logins" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
